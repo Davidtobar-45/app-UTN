@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
-<title>UTN Campus Map</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+  <title>UTN Campus Map</title>
 
-<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
-<link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+  <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
@@ -15,8 +15,8 @@
 
   <!-- HEADER -->
   <header class="top-bar">
-    <img src="logo-utn.png" class="logo">
-    <span>UTN Campus</span>
+    <img src="https://wstemproject.eu/files/2019/06/logo-UTN-2017-300x300.png" class="logo">
+    <span class="title">UTN Campus</span>
   </header>
 
   <!-- BUSCADOR -->
@@ -29,17 +29,25 @@
   <div class="chips">
     <span onclick="buscarDirecto('Biblioteca')">Biblioteca</span>
     <span onclick="buscarDirecto('Comedor')">Comedor</span>
-    <span onclick="buscarDirecto('FICA')">FICA</span>
+    <span onclick="buscarDirecto('FCCS')">FCCS</span>
     <span onclick="buscarDirecto('Auditorio')">Auditorio</span>
     <span onclick="buscarDirecto('Canchas')">Canchas</span>
+    <span onclick="buscarDirecto('Edificio Central')">Edificio Central</span>
+    <span onclick="buscarDirecto('FICA')">FICA</span>
   </div>
 
   <!-- MAPA -->
   <div id="map"></div>
 
+  <!-- FOOTER -->
+  <footer class="footer">
+    © 2025 David Tobar – 1004462873 – Desarrollo de Software
+  </footer>
+
 </div>
 
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 <script src="app.js"></script>
+
 </body>
 </html>

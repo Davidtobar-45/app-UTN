@@ -47,13 +47,24 @@ navigator.geolocation.watchPosition(
 
 /* UBICACIONES REALES DEL CAMPUS */
 const lugares = [
-  { nombre: "Biblioteca", coords: [0.358286, -78.111810] },
-  { nombre: "FICA", coords: [0.358330, -78.111720] },
-  { nombre: "Centro de Idiomas", coords: [0.358140, -78.111980] },
-  { nombre: "Polideportivo", coords: [0.358090, -78.112260] },
-  { nombre: "Auditorio", coords: [0.357720, -78.112050] },
-  { nombre: "Canchas", coords: [0.357520, -78.111820] },
-  { nombre: "Comedor", coords: [0.357850, -78.111300] }
+  { nombre: "Biblioteca", coords: [0.3586732674871526, -78.1115249373806] },
+  { nombre: "FCCS", coords: [0.3589090924468441, -78.1116708650704] },
+  { nombre: "FICA", coords: [0.3588957936356396, -78.11132723049812] },
+  { nombre: "Centro de Idiomas", coords: [0.35849867883906034, -78.11171386162185] },
+  { nombre: "Polideportivo", coords: [0.3587541759882453, -78.11249614174487] },
+  { nombre: "Auditorio", coords: [0.3572721211686934, -78.11178648548976] },
+  { nombre: "Canchas", coords: [0.35758588167812405, -78.1115773077047] },
+  { nombre: "CanchasN1", coords: [0.35679120874729586, -78.11169605115022] },
+  { nombre: "Comedor", coords: [0.3563987784907535, -78.11131401953625] },
+  { nombre: "FECYT", coords: [0.35723707779712466, -78.11094045601] },
+  { nombre: "FACAE", coords: [0.35674310639488443, -78.11083996696314] },
+  { nombre: "Jardin Facae", coords: [0.3568132784751284, -78.11118126504171] },
+  { nombre: "Institucion de postgrado", coords: [0.3582613749429171, -78.11255602653867] },
+  { nombre: "Parque acuatico", coords: [0.3591306785344449, -78.11210297225011] },
+  { nombre: "Snna-utn", coords: [0.3591306785344449, -78.11210297225011] },  
+  { nombre: "Jardin bienestar", coords: [0.3591548344975423, -78.11050656245071] },
+  { nombre: "Edificio central", coords: [0.35794192246309736, -78.11089041857365] },
+  { nombre: "carrera en electricidad", coords: [0.3578220118950115, -78.11235599174665] },
 ];
 
 let marcadorDestino = null;
