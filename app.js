@@ -65,6 +65,7 @@ const lugares = [
   { nombre: "Jardin bienestar", coords: [0.3591548344975423, -78.11050656245071] },
   { nombre: "Edificio central", coords: [0.35794192246309736, -78.11089041857365] },
   { nombre: "carrera en electricidad", coords: [0.3578220118950115, -78.11235599174665] },
+  { nombre: "FICAYA", coords: [0.3585105999161242, -78.11131529041016] },
 ];
 
 let marcadorDestino = null;
